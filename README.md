@@ -47,7 +47,7 @@ Fazer a inicialização da OS dentro do Raspberry
 - **nano etc/ssh/sshd_config**
 - **Port ##**
 - **MaxAuthTries 3**
-- **MaxSession2**
+- **MaxSession 2**
 - **AllowUsers USER**
 7. Mudar host name:
 - **hostnamectl set-hostname dominio.com.br**
